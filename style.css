@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-image: url(./images/texture-pattern.jpg);
+}
+  
+ul {
+    list-style-type: none;
+}
+  
+a {
+    text-decoration: none;
+    color: #333;
+}
+  
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+  
+p {
+    margin: 10px 0;
+}
+  
+img {
+    width: 100%;
+}
+
+.background-one {
+    max-width: 1300px;
+    background-color: #e7dbd6;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.background-two {
+    background-color: rgb(206, 191, 191);
+    opacity: 80%;
+    height: 60px;
+}
+
+.nav-links {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+/* Fall Card */
+
+.showcase-one {
+    height: 420px;
+    width: 654px;
+    margin: 70px auto;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+  
+.fall-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+}
+  
+.fall-img img {
+    border-radius: 7px 0 0 7px;
+}
+  
+.fall-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+}
+  
+.fall-text h1 {
+    padding-top: 52px;
+    font-size: 34px;
+    color: #333;
+    margin-left: 20px;
+}
+  
+
+.fall-text p {
+    height: 125px;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+  
+.fall-price-btn button {
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: #333;
+    background-color: #7ED9CE;
+    border: transparent;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.showcase-two {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.header-one {
+    margin-left: 70px;
+    margin-bottom: 20px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 70px;
+}
+
+.box img {
+    height: 200px;
+    width: 300px;
+}
+
+.box h2 {
+    padding: 10px 5px;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 50px 0;
+}
