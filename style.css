@@ -8,7 +8,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #333;
     line-height: 1.6;
-    background-image: url(./images/texture-pattern.jpg);
+    background-image: url(./images/texture-pattern\ \(2\).jpg);
 }
   
 ul {
@@ -36,7 +36,7 @@ img {
 }
 
 .background-one {
-    max-width: 1300px;
+    max-width: 1100px;
     background-color: #e7dbd6;
     margin: auto;
 }
@@ -49,14 +49,13 @@ img {
 
 .background-two {
     background-color: white;
-    opacity: 80%;
-    height: 60px;
+    height: 80px;
 }
 
 .nav-links {
     max-width: 800px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .nav-links ul {
@@ -64,9 +63,17 @@ img {
     align-items: center;
     justify-content: space-between;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 700;
     padding-top: 10px;
-    color: #ba1c2b;
+    color: #3fd6c5;
+}
+
+.nav-links li {
+    margin-top: 10px;
+}
+
+.nav-links a {
+    color: #3fd6c5;
 }
 
 
@@ -75,7 +82,7 @@ img {
 .showcase-one {
     height: 420px;
     width: 654px;
-    margin: 70px auto;
+    margin: 120px auto;
     -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -124,8 +131,8 @@ img {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.2em;
-    color: #333;
-    background-color: #7ED9CE;
+    color: white;
+    background-color: #2fd8e4;
     border: transparent;
     margin-top: 100px;
     margin-left: 20px;
@@ -164,4 +171,65 @@ img {
 .copyright {
     text-align: center;
     padding: 50px 0;
+}
+
+
+
+/* Products Page */ 
+
+.products-image {
+    height: 500px;
+}
+
+.image-container img {
+    filter: brightness(50%);
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.button-showcase button {
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: white;
+    background-color: #2fd8e4;
+    border: transparent;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.product {
+    margin-left: 20px;
+}
+
+.product-container h2 {
+    margin: 50px 0px 30px 70px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.product-container h3 {
+    font-size: 27px;
+}
+
+.button-showcase img {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
 }
