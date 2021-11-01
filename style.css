@@ -178,11 +178,11 @@ img {
 /* Products Page */ 
 
 .products-image {
-    height: 500px;
+    height: 550px;
 }
 
 .image-container img {
-    filter: brightness(50%);
+    filter: brightness(70%);
 }
 
 .centered {
