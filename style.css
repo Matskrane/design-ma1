@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500;600&family=Righteous&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -35,6 +38,11 @@ img {
     width: 100%;
 }
 
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
 .background-one {
     max-width: 1100px;
     background-color: #e7dbd6;
@@ -43,8 +51,9 @@ img {
 
 .logo {
     text-align: center;
-    font-size: 30px;
-    padding-top: 20px;
+    font-size: 33px;
+    padding-top: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .background-two {
@@ -66,6 +75,7 @@ img {
     font-weight: 700;
     padding-top: 10px;
     color: #3fd6c5;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-links li {
@@ -111,16 +121,18 @@ img {
     font-size: 34px;
     color: #333;
     margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
 }
   
 
 .fall-text p {
     height: 125px;
-    color: #8d8d8d;
+    color: #636363;
     line-height: 1.7em;
     font-size: 15px;
     font-weight: lighter;
     margin-left: 20px;
+    font-family: 'PT Sans', sans-serif;
 }
   
 .fall-price-btn button {
@@ -136,6 +148,7 @@ img {
     border: transparent;
     margin-top: 100px;
     margin-left: 20px;
+    font-family: 'Righteous', cursive;
 }
 
 .showcase-two {
@@ -146,7 +159,7 @@ img {
 .header-one {
     margin-left: 70px;
     margin-bottom: 20px;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .grid {
@@ -162,6 +175,7 @@ img {
 
 .box h2 {
     padding: 10px 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .box {
@@ -193,6 +207,7 @@ img {
     color: white;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button-showcase button {
@@ -205,6 +220,7 @@ img {
     color: white;
     background-color: #2fd8e4;
     border: transparent;
+    font-family: 'Righteous', cursive;
 }
 
 .flex {
@@ -222,6 +238,7 @@ img {
     margin: 50px 0px 30px 70px;
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 
 .product-container h3 {
